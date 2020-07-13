@@ -1,0 +1,585 @@
+TIC-Finding Problem Solutions
+Model: test_model_1
+Database: test_database_1
+
+End of solutions for phi = 0
+Solution time: 0.00662541389465332 s
+
+End of solutions for phi = 1
+Solution time: 0.1500847339630127 s
+
+End of solutions for phi = 2
+Solution time: 0.7289581298828125 s
+
+TFP SOLUTION #0
+PHI = 3
+OBJECTIVE VALUE: 2.9999999999999996
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R011__c	model	->		0.001
+R012__c	model	<-		-0.0009999999999997687
+R01602__c	database	->		0.0010000000000000729
+time to get solution: 0.05285525321960449 s
+
+TFP SOLUTION #1
+PHI = 3
+OBJECTIVE VALUE: 3.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R02740__c	database	->		0.9990000000000001
+R03321__c	database	<-		-0.9990000000000001
+R02739__c	database	<-		-0.9990000000000001
+time to get solution: 0.11704230308532715 s
+
+TFP SOLUTION #2
+PHI = 3
+OBJECTIVE VALUE: 2.9999999999999996
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R02740__c	database	<-		-0.9990000000000001
+R03321__c	database	->		0.9990000000000001
+R02739__c	database	->		0.9990000000000001
+time to get solution: 0.3581364154815674 s
+
+TFP SOLUTION #3
+PHI = 3
+OBJECTIVE VALUE: 3.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R011__c	model	<-		-0.9990000000000002
+R012__c	model	->		0.9990000000000002
+R01602__c	database	<-		-0.9990000000000001
+time to get solution: 0.16533827781677246 s
+
+End of solutions for phi = 3
+Solution time: 1.2412800788879395 s
+
+TFP SOLUTION #4
+PHI = 4
+OBJECTIVE VALUE: 3.999999999999999
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R01786__c	database	<-		-0.999000000000086
+R01602__c	database	->		0.9990000000000859
+R01600__c	database	->		0.9990000000000863
+R02739__c	database	<-		-0.999000000000086
+time to get solution: 0.24619436264038086 s
+
+TFP SOLUTION #5
+PHI = 4
+OBJECTIVE VALUE: 4.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R01786__c	database	->		0.9990000000000001
+R01602__c	database	<-		-0.9990000000000001
+R01600__c	database	<-		-0.9990000000000001
+R02739__c	database	->		0.999
+time to get solution: 0.3832693099975586 s
+
+End of solutions for phi = 4
+Solution time: 1.6744036674499512 s
+
+TFP SOLUTION #6
+PHI = 5
+OBJECTIVE VALUE: 5.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R011__c	model	->		0.9989999999999996
+R012__c	model	<-		-0.999
+R01786__c	database	->		0.9989999999999996
+R01600__c	database	<-		-0.9990000000000001
+R02739__c	database	->		0.999
+time to get solution: 0.15534543991088867 s
+
+TFP SOLUTION #7
+PHI = 5
+OBJECTIVE VALUE: 5.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R011__c	model	<-		-0.9990000000000002
+R012__c	model	->		0.9990000000000003
+R01786__c	database	<-		-0.999
+R01600__c	database	->		0.9990000000000003
+R02739__c	database	<-		-0.9990000000000001
+time to get solution: 0.08886432647705078 s
+
+TFP SOLUTION #8
+PHI = 5
+OBJECTIVE VALUE: 4.999999999999999
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R02740__c	database	<-		-0.9990000000000001
+R01786__c	database	<-		-0.9990000000000001
+R01602__c	database	->		0.999
+R01600__c	database	->		0.9990000000000001
+R03321__c	database	->		0.9990000000000001
+time to get solution: 0.07654118537902832 s
+
+TFP SOLUTION #9
+PHI = 5
+OBJECTIVE VALUE: 5.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R02740__c	database	->		0.9989999999998278
+R01786__c	database	->		0.998999999999828
+R01602__c	database	<-		-0.9989999999998279
+R01600__c	database	<-		-0.998999999999828
+R03321__c	database	<-		-0.9989999999998279
+time to get solution: 0.6701653003692627 s
+
+TFP SOLUTION #10
+PHI = 5
+OBJECTIVE VALUE: 5.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R09532__c	model	<-		-0.9990000000000001
+ATPM	model	->		0.9990000000000002
+R01512__c	database	<-		-0.9990000000000001
+R01662__c	database	<-		-0.999
+R01518__c	database	<-		-0.999
+time to get solution: 0.4696669578552246 s
+
+End of solutions for phi = 5
+Solution time: 1.7899272441864014 s
+
+TFP SOLUTION #11
+PHI = 6
+OBJECTIVE VALUE: 5.999999999999999
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R011__c	model	->		0.9990000000000002
+R012__c	model	<-		-0.9990000000000002
+R02740__c	database	->		0.9990000000000001
+R01786__c	database	->		0.9990000000000003
+R01600__c	database	<-		-0.9990000000000003
+R03321__c	database	<-		-0.9990000000000001
+time to get solution: 0.5103592872619629 s
+
+TFP SOLUTION #12
+PHI = 6
+OBJECTIVE VALUE: 5.999999999999999
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R011__c	model	<-		-0.999
+R012__c	model	->		0.999
+R02740__c	database	<-		-0.999
+R01786__c	database	<-		-0.9990000000000001
+R01600__c	database	->		0.9990000000000001
+R03321__c	database	->		0.999
+time to get solution: 1.4994683265686035 s
+
+TFP SOLUTION #13
+PHI = 6
+OBJECTIVE VALUE: 5.999999999999999
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R011__c	model	<-		-0.999
+R08639__c	model	<-		-0.9990000000000001
+ATPM	model	->		0.9990000000000004
+R01786__c	database	<-		-0.9990000000000003
+R00959__c	database	->		0.9990000000000001
+R00303__c	database	<-		-0.9990000000000003
+time to get solution: 0.41136789321899414 s
+
+End of solutions for phi = 6
+Solution time: 3.866072177886963 s
+
+TFP SOLUTION #14
+PHI = 7
+OBJECTIVE VALUE: 6.999999999999999
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R012__c	model	<-		-0.9990000000000002
+R08639__c	model	<-		-0.9990000000000001
+ATPM	model	->		0.9990000000000004
+R01600__c	database	<-		-0.9990000000000003
+R02739__c	database	->		0.9990000000000001
+R00959__c	database	->		0.9990000000000001
+R00303__c	database	<-		-0.9990000000000003
+time to get solution: 1.572112798690796 s
+
+TFP SOLUTION #15
+PHI = 7
+OBJECTIVE VALUE: 6.999999999999999
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R012__c	model	<-		-0.999
+R08639__c	model	<-		-0.999
+ATPM	model	->		0.9990000000000002
+R01786__c	database	<-		-0.9990000000000001
+R01602__c	database	->		0.999
+R00959__c	database	->		0.999
+R00303__c	database	<-		-0.9990000000000001
+time to get solution: 1.964937448501587 s
+
+End of solutions for phi = 7
+Solution time: 4.795709133148193 s
+
+TFP SOLUTION #16
+PHI = 8
+OBJECTIVE VALUE: 7.999999999999998
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R012__c	model	<-		-0.9990000000000002
+R08639__c	model	<-		-0.9990000000000001
+ATPM	model	->		0.9990000000000004
+R02740__c	database	->		0.9990000000000001
+R01600__c	database	<-		-0.9990000000000003
+R03321__c	database	<-		-0.9990000000000001
+R00959__c	database	->		0.9990000000000001
+R00303__c	database	<-		-0.9990000000000003
+time to get solution: 2.258596897125244 s
+
+TFP SOLUTION #17
+PHI = 8
+OBJECTIVE VALUE: 7.999999999999999
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R011__c	model	<-		-0.9990000000000002
+R08639__c	model	<-		-0.999
+ATPM	model	->		0.9990000000000004
+R01602__c	database	<-		-0.9990000000000001
+R01600__c	database	<-		-0.9990000000000003
+R02739__c	database	->		0.9990000000000001
+R00959__c	database	->		0.999
+R00303__c	database	<-		-0.9990000000000001
+time to get solution: 2.295433759689331 s
+
+End of solutions for phi = 8
+Solution time: 8.06663465499878 s
+
+TFP SOLUTION #18
+PHI = 9
+OBJECTIVE VALUE: 9.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R011__c	model	<-		-0.9990000000000003
+R08639__c	model	<-		-0.9990000000000001
+R09532__c	model	->		0.9990000000000001
+R01512__c	database	->		0.9990000000000001
+R01662__c	database	->		0.999
+R01518__c	database	->		0.999
+R01786__c	database	<-		-0.9990000000000004
+R00959__c	database	->		0.9990000000000001
+R00303__c	database	<-		-0.9990000000000003
+time to get solution: 0.08956146240234375 s
+
+TFP SOLUTION #19
+PHI = 9
+OBJECTIVE VALUE: 9.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R011__c	model	->		0.9990000000000003
+R08639__c	model	->		0.9990000000000001
+R09532__c	model	<-		-0.9990000000000001
+R01512__c	database	<-		-0.9990000000000001
+R01662__c	database	<-		-0.999
+R01518__c	database	<-		-0.999
+R01786__c	database	->		0.9990000000000004
+R00959__c	database	<-		-0.9990000000000001
+R00303__c	database	->		0.9990000000000003
+time to get solution: 3.2966678142547607 s
+
+TFP SOLUTION #20
+PHI = 9
+OBJECTIVE VALUE: 8.999999999999998
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R011__c	model	<-		-0.9990000000000002
+R08639__c	model	<-		-0.9990000000000001
+ATPM	model	->		0.9990000000000004
+R02740__c	database	->		0.9990000000000001
+R01602__c	database	<-		-0.999
+R01600__c	database	<-		-0.9990000000000003
+R03321__c	database	<-		-0.9990000000000001
+R00959__c	database	->		0.9990000000000001
+R00303__c	database	<-		-0.9990000000000003
+time to get solution: 3.4657132625579834 s
+
+End of solutions for phi = 9
+Solution time: 11.087605476379395 s
+
+TFP SOLUTION #21
+PHI = 10
+OBJECTIVE VALUE: 10.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R012__c	model	->		0.9990000000000002
+R08639__c	model	->		0.9989999999999997
+R09532__c	model	<-		-0.9990000000000001
+R01512__c	database	<-		-0.9990000000000001
+R01662__c	database	<-		-0.999
+R01518__c	database	<-		-0.999
+R01600__c	database	->		0.9990000000000003
+R02739__c	database	<-		-0.9990000000000001
+R00959__c	database	<-		-0.9989999999999997
+R00303__c	database	->		0.999
+time to get solution: 2.8604979515075684 s
+
+TFP SOLUTION #22
+PHI = 10
+OBJECTIVE VALUE: 10.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R012__c	model	->		0.001
+R08639__c	model	->		0.000999999999999846
+R09532__c	model	<-		-0.000999999999999846
+R01512__c	database	<-		-0.000999999999999846
+R01662__c	database	<-		-0.0009999999999998458
+R01518__c	database	<-		-0.0009999999999998458
+R01786__c	database	->		0.000999999999999846
+R01602__c	database	<-		-0.001
+R00959__c	database	<-		-0.000999999999999846
+R00303__c	database	->		0.000999999999999846
+time to get solution: 4.080682039260864 s
+
+TFP SOLUTION #23
+PHI = 10
+OBJECTIVE VALUE: 9.999999999999998
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R012__c	model	<-		-0.9990000000000003
+R08639__c	model	<-		-0.9990000000000001
+R09532__c	model	->		0.9990000000000004
+R01512__c	database	->		0.9990000000000004
+R01662__c	database	->		0.9990000000000003
+R01518__c	database	->		0.9990000000000003
+R01600__c	database	<-		-0.9990000000000001
+R02739__c	database	->		0.999
+R00959__c	database	->		0.9990000000000001
+R00303__c	database	<-		-0.9990000000000004
+time to get solution: 4.480010986328125 s
+
+TFP SOLUTION #24
+PHI = 10
+OBJECTIVE VALUE: 10.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R012__c	model	<-		-0.9990000000000002
+R08639__c	model	<-		-0.9990000000000003
+R09532__c	model	->		0.9990000000000001
+R01512__c	database	->		0.9990000000000001
+R01662__c	database	->		0.999
+R01518__c	database	->		0.999
+R01786__c	database	<-		-0.9990000000000001
+R01602__c	database	->		0.999
+R00959__c	database	->		0.9990000000000003
+R00303__c	database	<-		-0.9990000000000003
+time to get solution: 4.37455940246582 s
+
+End of solutions for phi = 10
+Solution time: 16.139304161071777 s
+
+TFP SOLUTION #25
+PHI = 11
+OBJECTIVE VALUE: 10.999999999999998
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R011__c	model	->		0.9990000000000002
+R08639__c	model	->		0.9990000000000001
+R09532__c	model	<-		-0.9990000000000003
+R01512__c	database	<-		-0.9990000000000003
+R01662__c	database	<-		-0.9990000000000001
+R01518__c	database	<-		-0.9990000000000001
+R01602__c	database	->		0.9990000000000001
+R01600__c	database	->		0.9990000000000003
+R02739__c	database	<-		-0.9990000000000001
+R00959__c	database	<-		-0.9990000000000001
+R00303__c	database	->		0.9990000000000003
+time to get solution: 3.125657081604004 s
+
+TFP SOLUTION #26
+PHI = 11
+OBJECTIVE VALUE: 11.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R012__c	model	<-		-0.9990000000000003
+R08639__c	model	<-		-0.9989999999999997
+R09532__c	model	->		0.9989999999999989
+R02740__c	database	->		0.9989999999999998
+R01512__c	database	->		0.9989999999999989
+R01662__c	database	->		0.9989999999999989
+R01518__c	database	->		0.9989999999999989
+R01600__c	database	<-		-0.999
+R03321__c	database	<-		-0.9989999999999998
+R00959__c	database	->		0.9989999999999997
+R00303__c	database	<-		-0.9989999999999998
+time to get solution: 0.02305459976196289 s
+
+TFP SOLUTION #27
+PHI = 11
+OBJECTIVE VALUE: 10.999999999999998
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R012__c	model	->		0.9990000000000002
+R08639__c	model	->		0.9990000000000001
+R09532__c	model	<-		-0.9990000000000003
+R02740__c	database	<-		-0.9990000000000004
+R01512__c	database	<-		-0.9990000000000003
+R01662__c	database	<-		-0.9990000000000001
+R01518__c	database	<-		-0.9990000000000001
+R01600__c	database	->		0.9990000000000007
+R03321__c	database	->		0.9990000000000004
+R00959__c	database	<-		-0.9990000000000001
+R00303__c	database	->		0.9990000000000003
+time to get solution: 2.8923208713531494 s
+
+TFP SOLUTION #28
+PHI = 11
+OBJECTIVE VALUE: 10.999999999999998
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R011__c	model	<-		-0.9990000000000002
+R08639__c	model	<-		-0.9990000000000001
+R09532__c	model	->		0.9990000000000007
+R01512__c	database	->		0.9990000000000007
+R01662__c	database	->		0.9990000000000004
+R01518__c	database	->		0.9990000000000004
+R01602__c	database	<-		-0.9990000000000001
+R01600__c	database	<-		-0.9990000000000003
+R02739__c	database	->		0.9990000000000001
+R00959__c	database	->		0.9990000000000001
+R00303__c	database	<-		-0.9990000000000004
+time to get solution: 3.1593165397644043 s
+
+End of solutions for phi = 11
+Solution time: 20.100165128707886 s
+
+TFP SOLUTION #29
+PHI = 12
+OBJECTIVE VALUE: 11.999999999999998
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R011__c	model	->		0.9990000000000002
+R08639__c	model	->		0.9990000000000001
+R09532__c	model	<-		-0.9990000000000003
+R02740__c	database	<-		-0.9990000000000001
+R01512__c	database	<-		-0.9990000000000003
+R01662__c	database	<-		-0.9990000000000001
+R01518__c	database	<-		-0.9990000000000001
+R01602__c	database	->		0.9990000000000001
+R01600__c	database	->		0.9990000000000003
+R03321__c	database	->		0.9990000000000001
+R00959__c	database	<-		-0.9990000000000001
+R00303__c	database	->		0.9990000000000003
+time to get solution: 3.387040853500366 s
+
+TFP SOLUTION #30
+PHI = 12
+OBJECTIVE VALUE: 11.999999999999998
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+R011__c	model	<-		-0.9990000000000002
+R08639__c	model	<-		-0.9990000000000001
+R09532__c	model	->		0.9990000000000003
+R02740__c	database	->		0.9990000000000001
+R01512__c	database	->		0.9990000000000003
+R01662__c	database	->		0.9990000000000001
+R01518__c	database	->		0.9990000000000001
+R01602__c	database	<-		-0.9990000000000001
+R01600__c	database	<-		-0.9990000000000003
+R03321__c	database	<-		-0.9990000000000001
+R00959__c	database	->		0.9990000000000001
+R00303__c	database	<-		-0.9990000000000003
+time to get solution: 6.636827707290649 s
+
+End of solutions for phi = 12
+Solution time: 20.39921545982361 s
+
+End of solutions for phi = 13
+Solution time: 24.386022090911865 s
+
+End of solutions for phi = 14
+Solution time: 19.22226071357727 s
+
+End of solutions for phi = 15
+Solution time: 20.9337100982666 s
+
+End of solutions for phi = 16
+Solution time: 22.672154664993286 s
+
+End of solutions for phi = 17
+Solution time: 21.81152844429016 s
+
+End of solutions for phi = 18
+Solution time: 23.090104341506958 s
+
+End of solutions for phi = 19
+Solution time: 20.593022346496582 s
+
+End of solutions for phi = 20
+Solution time: 20.392752170562744 s
+
+End of solutions for phi = 21
+Solution time: 24.54631781578064 s
+
+End of solutions for phi = 22
+Solution time: 21.369181156158447 s
+
+End of solutions for phi = 23
+Solution time: 23.662855625152588 s
+
+End of solutions for phi = 24
+Solution time: 19.257736444473267 s
+
+End of solutions for phi = 25
+Solution time: 19.979495525360107 s
+
+End of solutions for phi = 26
+Solution time: 19.03972053527832 s
+
+End of solutions for phi = 27
+Solution time: 16.73309087753296 s
+
+End of solutions for phi = 28
+Solution time: 15.293267726898193 s
+
+End of solutions for phi = 29
+Solution time: 13.314939737319946 s
+
+End of solutions for phi = 30
+Solution time: 14.267566680908203 s
+
+End of solutions for phi = 31
+Solution time: 12.85675859451294 s
+
+End of solutions for phi = 32
+Solution time: 11.349639892578125 s
+
+End of solutions for phi = 33
+Solution time: 7.575497150421143 s
+
+End of solutions for phi = 34
+Solution time: 5.5892534255981445 s
+
+End of solutions for phi = 35
+Solution time: 4.2644569873809814 s
+
+End of solutions for phi = 36
+Solution time: 1.9407927989959717 s
+
+End of solutions for phi = 37
+Solution time: 0.7476112842559814 s
+
+End of solutions for phi = 38
+Solution time: 0.2796487808227539 s
+
+End of solutions for phi = 39
+Solution time: 0.016849517822265625 s
+
+End of solutions for phi = 40
+Solution time: 0.011194467544555664 s
+
+End of solutions for phi = 41
+Solution time: 0.01055288314819336 s
+
+End of solutions for phi = 42
+Solution time: 0.010181903839111328 s
+
+End of solutions for phi = 43
+Solution time: 0.010250329971313477 s
+
+End of solutions for phi = 44
+Solution time: 0.010259866714477539 s
+
+total TFP runtime: 553.3557665348053 s

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core"  xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3" version="2" fbc:required="false">
+
+	<model id="tm_1" name="test_model_1" fbc:strict = "true">
+
+		<listOfCompartments>
+			<compartment metaid="e" id="e" constant="true"/>
+			<compartment metaid="c" id="c" constant="true"/>
+			<compartment metaid="none" id="none" constant="true"/>
+		</listOfCompartments>
+
+		<listOfSpecies>
+			<species metaid="C00089__e" id="C00089__e" name="C00089__e" compartment="e" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00001__e" id="C00001__e" name="C00001__e" compartment="e" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00080__e" id="C00080__e" name="C00080__e" compartment="e" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00011__e" id="C00011__e" name="C00011__e" compartment="e" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00469__e" id="C00469__e" name="C00469__e" compartment="e" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00089__c" id="C00089__c" name="C00089__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00001__c" id="C00001__c" name="C00001__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00011__c" id="C00011__c" name="C00011__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00469__c" id="C00469__c" name="C00469__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00080__c" id="C00080__c" name="C00080__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00031__c" id="C00031__c" name="C00031__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00267__c" id="C00267__c" name="C00267__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00221__c" id="C00221__c" name="C00221__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00095__c" id="C00095__c" name="C00095__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00103__c" id="C00103__c" name="C00103__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00092__c" id="C00092__c" name="C00092__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00002__c" id="C00002__c" name="C00002__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C05345__c" id="C05345__c" name="C05345__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00008__c" id="C00008__c" name="C00008__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C05378__c" id="C05378__c" name="C05378__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00111__c" id="C00111__c" name="C00111__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00118__c" id="C00118__c" name="C00118__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00009__c" id="C00009__c" name="C00009__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00003__c" id="C00003__c" name="C00003__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00236__c" id="C00236__c" name="C00236__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00004__c" id="C00004__c" name="C00004__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00631__c" id="C00631__c" name="C00631__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00074__c" id="C00074__c" name="C00074__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00022__c" id="C00022__c" name="C00022__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00068__c" id="C00068__c" name="C00068__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C05125__c" id="C05125__c" name="C05125__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00084__c" id="C00084__c" name="C00084__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C00033__c" id="C00033__c" name="C00033__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="C01159__c" id="C01159__c" name="C01159__c" compartment="c" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+			<species metaid="biomass_wt" id="biomass_wt" name="biomass_wt" compartment="none" charge="0" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" />
+		</listOfSpecies>
+
+		<listOfParameters>
+			<parameter id="irr_f_lb" value="0" constant="true"/>
+			<parameter id="irr_f_ub" value="1000" constant="true"/>
+			<parameter id="irr_b_lb" value="-1000" constant="true"/>
+			<parameter id="irr_b_ub" value="0" constant="true"/>
+			<parameter id="rev_lb" value="-1000" constant="true"/>
+			<parameter id="rev_ub" value="1000" constant="true"/>
+			<parameter id="sucrose_uptake" value="-10" constant="true"/>
+		</listOfParameters>
+
+		<listOfReactions>
+			<reaction id="R001ex" reversible="true" compartment="none" fbc:lowerFluxBound="sucrose_uptake" fbc:upperFluxBound="irr_b_ub">
+				<listOfReactants>
+					<speciesReference species="C00089__e" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R002ex" reversible="true" compartment="none" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00001__e" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R003ex" reversible="true" compartment="none" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00080__e" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R004ex" reversible="false" compartment="none" fbc:lowerFluxBound="irr_f_lb" fbc:upperFluxBound="irr_f_ub">
+				<listOfReactants>
+					<speciesReference species="C00011__e" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R005ex" reversible="false" compartment="none" fbc:lowerFluxBound="irr_f_lb" fbc:upperFluxBound="irr_f_ub">
+				<listOfReactants>
+					<speciesReference species="C00469__e" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R006t" reversible="true" compartment="none" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00089__e" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00089__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R007t" reversible="true" compartment="none" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00001__e" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00001__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R008t" reversible="true" compartment="none" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00011__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00011__e" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R009t" reversible="true" compartment="none" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00469__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00469__e" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R010t" reversible="true" compartment="none" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00080__e" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00080__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R011__c" reversible="true" compartment="c" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00031__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00267__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R012__c" reversible="true" compartment="c" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00031__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00221__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R00801__c" reversible="true" compartment="c" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00089__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00001__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00031__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00095__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R08639__c" reversible="true" compartment="c" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00103__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00092__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R04779__c" reversible="true" compartment="c" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00002__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C05345__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00008__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C05378__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R01070__c" reversible="true" compartment="c" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C05378__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00111__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00118__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R01015__c" reversible="true" compartment="c" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00118__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00111__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R01061__c" reversible="true" compartment="c" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00118__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00009__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00003__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00080__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00236__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00004__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R00658__c" reversible="true" compartment="c" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00631__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00001__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00074__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R00200__c" reversible="true" compartment="c" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00002__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00022__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00008__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00074__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R00014__c" reversible="true" compartment="c" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00022__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00068__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00011__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C05125__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R00755__c" reversible="true" compartment="c" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C05125__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00068__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00084__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R00754__c" reversible="true" compartment="c" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00080__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00004__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00084__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00469__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00003__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R00710__c" reversible="true" compartment="c" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00001__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00003__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00084__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00080__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00004__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00033__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="R09532__c" reversible="true" compartment="c" fbc:lowerFluxBound="rev_lb" fbc:upperFluxBound="rev_ub">
+				<listOfReactants>
+					<speciesReference species="C00001__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C01159__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00009__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00631__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="biomass" reversible="false" compartment="none" fbc:lowerFluxBound="irr_f_lb" fbc:upperFluxBound="irr_f_ub">
+				<listOfReactants>
+					<speciesReference species="C00001__c" stoichiometry="2" constant="true"/>
+					<speciesReference species="C00031__c" stoichiometry="1.55" constant="true"/>
+					<speciesReference species="C00267__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00221__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00095__c" stoichiometry="2" constant="true"/>
+					<speciesReference species="C00002__c" stoichiometry="2" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00008__c" stoichiometry="2" constant="true"/>
+					<speciesReference species="C00009__c" stoichiometry="2" constant="true"/>
+					<speciesReference species="biomass_wt" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+			<reaction id="biomass_si" reversible="false" compartment="none" fbc:lowerFluxBound="irr_f_lb" fbc:upperFluxBound="irr_f_ub">
+				<listOfReactants>
+					<speciesReference species="biomass_wt" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+				</listOfProducts>
+			</reaction>
+			<reaction id="ATPM" reversible="false" compartment="none" fbc:lowerFluxBound="irr_f_lb" fbc:upperFluxBound="irr_f_ub">
+				<listOfReactants>
+					<speciesReference species="C00001__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00002__c" stoichiometry="1" constant="true"/>
+				</listOfReactants>
+				<listOfProducts>
+					<speciesReference species="C00008__c" stoichiometry="1" constant="true"/>
+					<speciesReference species="C00009__c" stoichiometry="1" constant="true"/>
+				</listOfProducts>
+			</reaction>
+		</listOfReactions>
+
+		<fbc:listOfObjectives fbc:activeObjective="obj">
+			<fbc:objective fbc:id="obj" fbc:type="maximize">
+				<fbc:listOfFluxObjectives>
+					<fbc:fluxObjective fbc:reaction="biomass_si" fbc:coefficient="1"/>
+				</fbc:listOfFluxObjectives>
+			</fbc:objective>
+		</fbc:listOfObjectives>
+	</model>
+</sbml>
