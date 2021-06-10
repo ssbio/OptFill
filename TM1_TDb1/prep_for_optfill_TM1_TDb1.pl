@@ -6,38 +6,38 @@
 require "perl_lib_1.pm";
 use strict;
 
-system("python convertWLS_model.py");
-system("python convertWLS_db.py");
+system("python convert_TM1.py");
+system("python convert_TDb1.py");
 
 printf "\n\nSuccessfully ran convert scripts\n\n";
 
 #get model reaction list
-open(MODELRXNS, "<rxns_m.txt") or die "Could not open the model reaction list file, reason: $!\n";
+open(MODELRXNS, "<rxns_m_1.txt") or die "Could not open the model reaction list file, reason: $!\n";
 chomp(my @model_rxns = <MODELRXNS>);
 #remove the "/" characters
 pop @model_rxns;
 shift @model_rxns;
 
 #get the model metabolite list
-open(MODELMETS, "<mets_m.txt") or die "Could not open the model metabolite list file, reason: $!\n";
+open(MODELMETS, "<mets_m_1.txt") or die "Could not open the model metabolite list file, reason: $!\n";
 chomp(my @model_mets = <MODELMETS>);
 pop @model_mets;
 shift @model_mets;
 
 #get the database reaction list
-open(DBMETS, "<rxns_db.txt") or die "Could not open the database reaction list file, reason: $!\n";
+open(DBMETS, "<rxns_db_1.txt") or die "Could not open the database reaction list file, reason: $!\n";
 chomp(my @db_rxns = <DBMETS>);
 pop @db_rxns;
 shift @db_rxns;
 
 #get the database metabolite list
-open(DBMETS, "<mets_db.txt") or die "Could not open the database metabolite list file, reason: $!\n";
+open(DBMETS, "<mets_db_1.txt") or die "Could not open the database metabolite list file, reason: $!\n";
 chomp(my @db_mets = <DBMETS>);
 pop @db_mets;
 shift @db_mets;
 
 #create the all_mets file
-open(ALLMETS, ">all_mets.txt") or die "could not write to all_mets.txt, reason: $!\n";
+open(ALLMETS, ">all_mets_1.txt") or die "could not write to all_mets.txt, reason: $!\n";
 
 #write the leading "/"
 printf ALLMETS "\/\n";
@@ -66,7 +66,7 @@ for(my $b=0; $b <= $#nr_all_mets; $b++) {
 printf ALLMETS "\/";
 
 #write the all_rxns.txt file
-open(ALLRXNS, ">all_rxns.txt") or die "could not write all_rxns.tx, reason: $!\n";
+open(ALLRXNS, ">all_rxns_1.txt") or die "could not write all_rxns.tx, reason: $!\n";
 
 #write the leading "/"
 printf ALLRXNS "\/\n";
@@ -95,12 +95,12 @@ for(my $d=0; $d <= $#nr_all_rxns; $d++) {
 printf ALLRXNS "\/";
 
 #create the combined Sij matrix
-open(MODELSIJ, "<Sij_m.txt") or die "could not open model Sij matrix, reason: $!\n";
+open(MODELSIJ, "<Sij_m_1.txt") or die "could not open model Sij matrix, reason: $!\n";
 chomp(my @model_sij = <MODELSIJ>);
 pop @model_sij;
 shift @model_sij;
 
-open(DBSIJ, "<Sij_db.txt") or die "could not open database Sij matrix, reason: $!\n";
+open(DBSIJ, "<Sij_db_1.txt") or die "could not open database Sij matrix, reason: $!\n";
 chomp(my @db_sij = <DBSIJ>);
 pop @db_sij;
 shift @db_sij;
@@ -116,12 +116,12 @@ for(my $e = 0; $e <= $#model_sij; $e++) {
 my $nr_sij_all_ref = &RemoveRedundancies(\@sij_all);
 my @nr_sij_all = @$nr_sij_all_ref;
 
-open(SIJALL, ">Sij_all.txt") or die "could not write to Sij_all.txt, reason: $!\n";
+open(SIJALL, ">Sij_all_1.txt") or die "could not write to Sij_all.txt, reason: $!\n";
 
 printf SIJALL "\/\n";
 
 #create biomass precursor file
-open(BIOPRE, ">biomass_precursors.txt") or die "could not create biomass precursor file, reason: $!\n";
+open(BIOPRE, ">biomass_precursors_1.txt") or die "could not create biomass precursor file, reason: $!\n";
 
 printf BIOPRE "\/\n";
 
